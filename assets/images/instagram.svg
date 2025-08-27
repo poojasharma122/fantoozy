@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>instagram</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAIFQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Xd8iUwAAACt0Uk5TAAdtyPT/x2wGG9DOGuJTDVHYzW4S42vJhoVV8/IOhM8PUBHaVsZqzAUZxWGBfSMAAAEDSURBVHicbZJhT8IwEIbvbTPX4dhEHdMBBvj//0c/aVIRZRKykYXNYaydsNkN7kuTe9K7564FEaqg/1AMKAjkYE/duEAGOHsBpEbWB7L+DjdbYa87F26RDBBunG0re7cO3qNPYBT30hYYxeFi8hHCokNvXCcgpeOecUkW1aB2i+K8OhpwcNMjZZFUJqjdtA/7MkHjpn1KEzRu2mdxFkzf2iDcjF/+gJe3SzHuDp6r5r5sN8fDUvQ52WkSrQoTkDNcnh2QSCgVUE+ioCMYrzpLPLqBs8vkBHj5FPaPy08eypczCF5eWfzVSE/SQM71Rl1VnpSas0f9b4Tn72IjO/S/2RP9Anq9ZST8OrpEAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

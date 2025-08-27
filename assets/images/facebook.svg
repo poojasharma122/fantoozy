@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25">
+	<title>facebook-app-symbol</title>
+	<defs>
+		<image  width="14" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAYCAMAAAD9GTxlAAAAAXNSR0IB2cksfwAAAGlQTFRFAAAA/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ButdgAAACN0Uk5TABSH1/f47N0yI+L/OwHJOXNwDYjqi9sMM6MD+rqZBBGT3gmzwtV5AAAAbElEQVR4nGNkAANGGADzOKE0hOJl/MuAxOX/w4DMFfgNJNgY3wH5IK7wD6D2N2BpECH6jYGB+xU2rjhQgPETA8N/PiCPiZHnPwMcCPxH4XK/QuEKPkHhCj1mlAMZ9ZqBQewfAwPzPQL2DhAXAOx4K3ku2lFmAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="5" y="0"/>
+</svg>

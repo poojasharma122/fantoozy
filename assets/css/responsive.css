@@ -1,0 +1,201 @@
+@media (max-width: 992px) {
+      .container {
+        padding: 0 20px;
+    }
+    .main-header__nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: var(--darkblue);
+        overflow: hidden;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.4s;
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .main-header__nav.open {
+        opacity: 1;
+        pointer-events: auto;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    .main-header__nav ul {
+        flex-direction: column;
+        gap: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-header__nav ul li {
+        border-bottom: 1px solid #2d2a5a;
+    }
+
+    .main-header__nav ul li a {
+        display: block;
+        padding: 14px 24px;
+        font-size: 1.15rem;
+        color: var(--yellow);
+    }
+
+    .main-header__nav ul li a.active,
+    .main-header__nav ul li a:hover {
+        color: var(--white);
+    }
+
+    .main-header__signup {
+        margin: 18px 0 0 0;
+        width: 100%;
+        justify-content: center;
+        display: none;
+    }
+
+    .main-header__toggle {
+        display: flex;
+        position: absolute;
+        top: 35px;
+        right: 24px;
+        z-index: 2000;
+        background: none;
+    }
+
+    .site-footer__wrapper {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .footer-col {
+        margin-bottom: 20px;
+    }
+
+    .main-header .main-btn {
+        display: none;
+    }
+
+  
+     .league-card {
+    margin-bottom: 24px;
+  }
+    .blog-card {
+    height: 240px;
+  }
+  .features {
+    grid-template-columns: 1fr 1fr;
+}
+section.custom-banner.homebanner h1 {
+    font-size: 55px;
+}
+section.custom-banner.homebanner{
+    height: 600px;
+}
+.feature-card h3 , .league-card__title{
+    font-size: 23px;
+}
+}
+@media screen and (max-width: 767px) {
+        section.custom-banner.homebanner h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width: 600px) {
+        .features {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .faq-question {
+        font-size: 18px;
+    }
+
+    .contact-card {
+        flex-direction: column;
+        align-items: center;
+        padding: 18px 8px;
+    }
+
+    .contact-block {
+        padding: 0 4px;
+    }
+
+    .mainfooter-pages-wrap {
+        padding: 22px 8px;
+    }
+
+    .mainfooter-pages-title {
+        font-size: 1.4rem;
+    }
+
+    .mainfooter-pages-subtitle {
+        font-size: 1.05rem;
+    }
+
+    .mainfooter-pages-block p,
+    .mainfooter-pages-block li {
+        font-size: 0.98rem;
+    }
+
+    .newsletter-title,
+    .social-tips-title {
+        font-size: 1.3rem;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .newsletter-btn,
+    .newsletter-input {
+        width: 100%;
+        font-size: 1rem;
+        flex: unset;
+    }
+
+    .social-icons-row {
+        gap: 14px;
+    }
+
+    section.custom-banner {
+        height: 350px;
+    }
+    section.custom-banner.homebanner {
+    height: 450px;
+}
+
+
+}
+
+@media screen and (max-width: 595px) {
+    .main-header__logo img , .site-footer__brand img{
+        height: 58px;
+    }
+      .choose-card {
+        padding: 20px 15px;
+      }
+    .custom-banner .banner-content h1 {
+        font-size: 38px;
+    }
+
+    h2.mainhead {
+        font-size: 25px;
+    }
+        section.custom-banner.homebanner h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width:450px) {
+    .formwrap{
+    gap: 12px;
+    }
+        section.custom-banner.homebanner h1 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+}
