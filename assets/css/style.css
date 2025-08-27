@@ -341,7 +341,7 @@ h2.mainhead {
 section.custom-banner {
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -435,6 +435,26 @@ section.custom-banner {
   color: var(--yellow);
   font-weight: 600;
   text-decoration: underline;
+}
+
+section.custom-banner.contact-banner {
+  background: url(../images/contactbanner.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+section.custom-banner.privacy-banner {
+  background: url(../images/privacybanner.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+section.custom-banner.terms-banner {
+  background: url(../images/termsbanner.jpg) center/cover fixed;
+}
+
+section.custom-banner.cookies-banner {
+  background: url(../images/cookiesbanner.jpg) center/cover fixed;
 }
 
 /* Footer Pages CSS End*/
@@ -585,7 +605,7 @@ section.custom-banner {
 
 /* Newsletter Section */
 .newsletter-section {
-  padding: 48px  0;
+  padding: 48px 0;
   color: var(--white);
   text-align: center;
 }
@@ -800,7 +820,7 @@ section.custom-banner.homebanner {
   background: #18103a;
 }
 
-.leagues-title {  
+.leagues-title {
   letter-spacing: 0.5px;
 }
 
@@ -830,7 +850,7 @@ section.custom-banner.homebanner {
 }
 
 section.Disclaimer {
-  padding-bottom: 50px ;
+  padding-bottom: 50px;
 }
 
 
@@ -894,7 +914,7 @@ section.Disclaimer {
   content: '';
   position: absolute;
   inset: 0;
-  background:linear-gradient(180deg, #ffcf8300 40%, #ffcf83 100%);
+  background: linear-gradient(180deg, #ffcf8300 40%, #ffcf83 100%);
   z-index: 1;
   transition: background 0.3s;
 }
@@ -922,17 +942,19 @@ section.Disclaimer {
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 8px 32px rgba(159, 88, 216, 0.18);
 }
+
 .mainnews form.newsletter-form {
-    max-width: 1000px;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
+  max-width: 1000px;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
 }
+
 .formwrap {
-    width: 100%;
-    max-width: 800px;
-    display: flex;
-    gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  gap: 20px;
 }
 
 /*Homepage Css End*/
