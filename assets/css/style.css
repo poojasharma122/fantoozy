@@ -960,6 +960,9 @@ section.Disclaimer {
 /*Homepage Css End*/
 
 /*Blog-Card-Start*/
+.guides-banner{
+  background-image: url("../images/guidebanner.jpg");
+}
 .customcard-detail .custom-card {
   text-decoration: none;
   color: inherit;
@@ -985,10 +988,12 @@ section.Disclaimer {
 .customcard-detail .card-body {
   text-align: center;
   padding: 1rem;
+  background: var(--yellow);
 }
 
 .customcard-detail .card-title {
   font-size: 17px;
   margin: 0;
+  color: var(--darkblue) !important;
 }
 /*Blog-Card-End*/

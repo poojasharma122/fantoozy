@@ -179,7 +179,8 @@ section.custom-banner.homebanner{
         padding: 20px 15px;
       }
     .custom-banner .banner-content h1 {
-        font-size: 38px;
+        font-size: 32px;
+        line-height: normal;
     }
 
     h2.mainhead {
