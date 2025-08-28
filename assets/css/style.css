@@ -117,7 +117,7 @@ h2.mainhead {
 }
 
 .para {
-  color: var(--white);
+  color: var(--white) !important;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -960,9 +960,10 @@ section.Disclaimer {
 /*Homepage Css End*/
 
 /*Blog-Card-Start*/
-.guides-banner{
+.guides-banner {
   background-image: url("../images/guidebanner.jpg");
 }
+
 .customcard-detail .custom-card {
   text-decoration: none;
   color: inherit;
@@ -973,7 +974,7 @@ section.Disclaimer {
 
 .customcard-detail .custom-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .customcard-detail .card {
@@ -982,8 +983,8 @@ section.Disclaimer {
 }
 
 .customcard-detail .card-img-top {
-  height: 250px;        
-  object-fit: cover;  
+  height: 250px;
+  object-fit: cover;
 }
 
 .customcard-detail .card-body {
@@ -997,10 +998,11 @@ section.Disclaimer {
   margin: 0;
   color: var(--darkblue) !important;
 }
+
 .customblog-inner {
-    padding: 48px 0;
-    max-width: 100%;
-    margin: 0 auto;
+  padding: 48px 0;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .customblog-title {
@@ -1034,4 +1036,88 @@ section.Disclaimer {
   color: var(--yellow);
   font-weight: 700;
 }
+
 /*Blog-Card-End*/
+
+/*About-page-css-Start*/
+.about-banner {
+  background-image: url("../images/aboutbanner.jpg");
+}
+
+.Trust-main .features {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.Trust-main .feature-card .icon {
+  margin-bottom: 20px;
+  font-size: 33px;
+}
+
+.mission-main .blog-card-overlay {
+  flex-direction: column;
+  align-items: baseline;
+  background: linear-gradient(180deg, rgb(20 14 56 / 95%) -1%, rgb(250 206 128 / 26%) 100%);
+}
+
+.mission-main .blog-card {
+  background-position: inherit;
+}
+
+.what-card h5,
+.what-card p {
+  text-align: center;
+  color: var(--darkblue) !important;
+  margin: 0;
+}
+
+.what-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: var(--yellow);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.what-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.what-card h5 {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.what-card h5 span {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.why-choose.Trust-main {
+  background-image: url(../images/choosebg-sec.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.why-choose.Trust-main::after {
+  position: absolute;
+  content: '';
+  inset: 0;
+  background: #00000091;
+}
+
+.why-choose.Trust-main .container {
+  z-index: 1;
+}
+
+/*About-page-css-End*/

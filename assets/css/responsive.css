@@ -1,7 +1,8 @@
 @media (max-width: 992px) {
-      .container {
+    .container {
         padding: 0 20px;
     }
+
     .main-header__nav {
         position: fixed;
         top: 0;
@@ -78,37 +79,60 @@
         display: none;
     }
 
-  
-     .league-card {
-    margin-bottom: 24px;
-  }
+
+    .league-card {
+        margin-bottom: 24px;
+    }
+
     .blog-card {
-    height: 240px;
-  }
-  .features {
-    grid-template-columns: 1fr 1fr;
+        height: 240px;
+    }
+
+    .features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section.custom-banner.homebanner h1 {
+        font-size: 55px;
+    }
+
+    section.custom-banner.homebanner {
+        height: 600px;
+    }
+
+    .feature-card h3,
+    .league-card__title {
+        font-size: 23px;
+    }
+
+    .Trust-main .features {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mission-main .blog-card-overlay {
+        padding: 15px;
+        justify-content: center;
+        min-height: auto;
+    }
 }
-section.custom-banner.homebanner h1 {
-    font-size: 55px;
-}
-section.custom-banner.homebanner{
-    height: 600px;
-}
-.feature-card h3 , .league-card__title{
-    font-size: 23px;
-}
-}
+
 @media screen and (max-width: 767px) {
-        section.custom-banner.homebanner h1 {
+    section.custom-banner.homebanner h1 {
         font-size: 45px;
         line-height: 60px;
     }
 }
+
 @media screen and (max-width: 600px) {
-        .features {
+    .Trust-main .features {
+        grid-template-columns: 1fr;
+    }
+
+    .features {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+
     .faq-question {
         font-size: 18px;
     }
@@ -164,20 +188,25 @@ section.custom-banner.homebanner{
     section.custom-banner {
         height: 350px;
     }
+
     section.custom-banner.homebanner {
-    height: 450px;
-}
+        height: 450px;
+    }
 
 
 }
 
 @media screen and (max-width: 595px) {
-    .main-header__logo img , .site-footer__brand img{
+
+    .main-header__logo img,
+    .site-footer__brand img {
         height: 58px;
     }
-      .choose-card {
+
+    .choose-card {
         padding: 20px 15px;
-      }
+    }
+
     .custom-banner .banner-content h1 {
         font-size: 32px;
         line-height: normal;
@@ -186,16 +215,19 @@ section.custom-banner.homebanner{
     h2.mainhead {
         font-size: 25px;
     }
-        section.custom-banner.homebanner h1 {
+
+    section.custom-banner.homebanner h1 {
         font-size: 35px;
         line-height: 50px;
     }
 }
+
 @media screen and (max-width:450px) {
-    .formwrap{
-    gap: 12px;
+    .formwrap {
+        gap: 12px;
     }
-        section.custom-banner.homebanner h1 {
+
+    section.custom-banner.homebanner h1 {
         font-size: 29px;
         line-height: 45px;
     }
