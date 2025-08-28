@@ -968,6 +968,7 @@ section.Disclaimer {
   color: inherit;
   display: block;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
 }
 
 .customcard-detail .custom-card:hover {
