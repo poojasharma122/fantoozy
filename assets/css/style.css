@@ -958,3 +958,37 @@ section.Disclaimer {
 }
 
 /*Homepage Css End*/
+
+/*Blog-Card-Start*/
+.customcard-detail .custom-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.customcard-detail .custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.customcard-detail .card {
+  border: none;
+  overflow: hidden;
+}
+
+.customcard-detail .card-img-top {
+  height: 250px;        
+  object-fit: cover;  
+}
+
+.customcard-detail .card-body {
+  text-align: center;
+  padding: 1rem;
+}
+
+.customcard-detail .card-title {
+  font-size: 17px;
+  margin: 0;
+}
+/*Blog-Card-End*/
