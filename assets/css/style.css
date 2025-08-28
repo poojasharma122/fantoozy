@@ -998,12 +998,9 @@ section.Disclaimer {
   color: var(--darkblue) !important;
 }
 .customblog-inner {
-    background: #232347;
-    border-radius: 22px;
-    box-shadow: 0 4px 32px rgba(20, 14, 56, 0.13);
-    padding: 48px 0 ;
-    max-width: 1200px;
-    margin: 50px auto;
+    padding: 48px 0;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .customblog-title {
@@ -1016,16 +1013,13 @@ section.Disclaimer {
 
 .customblog-desc {
   color: var(--white);
-  font-size: 1.13rem;
   line-height: 1.7;
-  font-weight: 500;
   margin-bottom: 18px;
 }
 
 .customblog-list {
   list-style: disc inside;
   color: var(--yellow);
-  font-size: 1.08rem;
   margin: 18px 0 0 0;
   padding-left: 0;
 }
