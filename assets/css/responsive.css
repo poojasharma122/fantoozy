@@ -116,10 +116,64 @@
     }
 }
 
+@media screen and (max-width: 991px) {
+    .league-sec {
+        padding: 50px 30px;
+    }
+
+    .league-sec a {
+        font-size: 23px;
+    }
+
+    .league-picture img {
+        margin: 0 auto 30px;
+        width: 100%;
+        height: auto;
+    }
+
+    .league-sec .row {
+        padding: 40px 15px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     section.custom-banner.homebanner h1 {
         font-size: 45px;
         line-height: 60px;
+    }
+
+    .table-container {
+        overflow-x: auto;
+    }
+
+    .fantasy-table {
+        min-width: 800px;
+    }
+
+    .table-container::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .table-container::-webkit-scrollbar-thumb {
+        background: var(--yellow);
+        border-radius: 4px;
+    }
+
+    .table-container::-webkit-scrollbar-track {
+        background: var(--darkblue);
+    }
+
+    .leaguecard-detail {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leaguecard-detail img {
+        width: 200px;
+    }
+
+    .leaguecard-detail-content {
+        text-align: left;
     }
 }
 

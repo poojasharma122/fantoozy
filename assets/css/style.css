@@ -624,7 +624,7 @@ section.custom-banner.cookies-banner {
 }
 
 .newsletter-desc {
-  font-size: 1.1rem;
+  font-size: 16px;
   color: var(--white);
   margin-bottom: 28px;
   line-height: 1.6;
@@ -1121,3 +1121,108 @@ section.Disclaimer {
 }
 
 /*About-page-css-End*/
+
+.table-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.fantasy-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--darkblue);
+  color: var(--white);
+  border: 1px solid #333;
+}
+
+.fantasy-table th,
+.fantasy-table td {
+  padding: 14px 18px;
+  border: 1px solid grey;
+  text-align: left;
+}
+
+.fantasy-table th {
+  background: var(--yellow);
+  color: var(--darkblue);
+  font-weight: bold;
+}
+
+.fantasy-table td a {
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.fantasy-table td a:hover {
+  text-decoration: underline;
+}
+
+.league-sec a {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: var(--yellow) !important;
+}
+
+.league-sec p {
+  color: var(--white) !important;
+  margin-bottom: 6px;
+}
+
+.league-sec p span {
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+.league-sec .row {
+  padding: 40px 30px;
+  border: 2px solid var(--yellow);
+  border-radius: 19px;
+  margin-bottom: 20px;
+}
+
+.league-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.league-picture img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 310px;
+  object-fit: contain;
+}
+
+.league-sec {
+  padding: 50px 40px;
+}
+
+.league-sec .container {
+  padding: 0;
+}
+
+.mainpage .league-card li,
+.mainpage .league-card p {
+  color: var(--white);
+  text-align: left;
+  margin-bottom: 7px;
+  list-style: none;
+}
+
+.mainpage .league-card li strong {
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+.leagues-section.mainpage h3 {
+  text-align: left;
+  line-height: normal;
+}
+
+.mainpage .league-card {
+  align-items: baseline;
+}
