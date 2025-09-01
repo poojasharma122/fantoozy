@@ -1226,3 +1226,13 @@ section.Disclaimer {
 .mainpage .league-card {
   align-items: baseline;
 }
+
+section.custom-banner.mlb-banner {
+    background-position: right;
+  background: url(../images/mlb-banner.jpg);
+}
+section.custom-banner.nhl-banner{
+    background: url(../images/nhl-banner.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
