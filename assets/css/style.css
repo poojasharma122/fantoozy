@@ -1236,3 +1236,13 @@ section.custom-banner.nhl-banner{
     background-position: bottom;
     background-size: cover;
 }
+section.custom-banner.nba-banner{
+       background: url(../images/nba-banner.jpg);
+    background-position: top;
+    background-size: cover;
+}
+section.custom-banner.nfl-banner{
+    background: url(../images/nfl-banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
