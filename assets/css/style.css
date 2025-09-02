@@ -346,6 +346,7 @@ section.custom-banner {
   align-items: center;
   justify-content: center;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .custom-banner::after {
@@ -1193,8 +1194,8 @@ section.Disclaimer {
   max-width: 100%;
   margin: 0 auto;
   display: block;
-  height: 310px;
-  object-fit: contain;
+  height: auto;
+  object-fit: cover;
 }
 
 .league-sec {
@@ -1227,22 +1228,21 @@ section.Disclaimer {
   align-items: baseline;
 }
 
-section.custom-banner.mlb-banner {
-    background-position: right;
+.mlb-banner {
   background: url(../images/mlb-banner.jpg);
 }
-section.custom-banner.nhl-banner{
-    background: url(../images/nhl-banner.jpg);
-    background-position: bottom;
-    background-size: cover;
+
+.nhl-banner {
+  background: url(../images/nhl-banner.jpg);
+  background-position: bottom !important;
 }
-section.custom-banner.nba-banner{
-       background: url(../images/nba-banner.jpg);
-    background-position: top;
-    background-size: cover;
+
+.nba-banner {
+  background: url(../images/nba-banner.jpg);
+  background-position: top !important;
 }
-section.custom-banner.nfl-banner{
-    background: url(../images/nfl-banner.jpg);
-    background-position: center;
-    background-size: cover;
+
+.nfl-banner {
+  background: url(../images/nfl-banner.jpg);
+  background-position: center !important;
 }
