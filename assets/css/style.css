@@ -353,9 +353,9 @@ section.custom-banner {
 }
 
 .mainfooter-pages-section {
-    background: var(--darkblue);
-    padding: 60px 0 40px 0;
-    border-top: 2px solid var(--yellow);
+  background: var(--darkblue);
+  padding: 60px 0 40px 0;
+  border-top: 2px solid var(--yellow);
 }
 
 .mainfooter-pages-wrap {
@@ -592,9 +592,10 @@ section.custom-banner.cookies-banner {
 
 /* Newsletter Section */
 .newsletter-desc strong {
-    display: block;
-    margin-top: 20px;
+  display: block;
+  margin-top: 20px;
 }
+
 .newsletter-section {
   padding: 48px 0;
   color: var(--white);
