@@ -506,9 +506,7 @@ section.custom-banner.cookies-banner {
 
 .contact-icon {
   font-size: 2.5rem;
-  margin-right: 8px;
   color: var(--yellow);
-  flex-shrink: 0;
   line-height: 1;
 }
 
