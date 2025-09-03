@@ -607,6 +607,10 @@ section.custom-banner.cookies-banner {
 }
 
 /* Newsletter Section */
+.newsletter-desc strong {
+    display: block;
+    margin-top: 20px;
+}
 .newsletter-section {
   padding: 48px 0;
   color: var(--white);
