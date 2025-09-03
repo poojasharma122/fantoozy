@@ -1203,7 +1203,9 @@ section.Disclaimer {
 .league-sec .container {
   padding: 0;
 }
-
+.league-sec span.verdict {
+    font-style: italic;
+}
 .mainpage .league-card li,
 .mainpage .league-card p {
   color: var(--white);
