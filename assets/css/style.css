@@ -188,7 +188,7 @@ h2.mainhead {
 }
 
 .main-btn {
-/* 
+  /* 
   background: linear-gradient(90deg, #ffcf83 0%, #140e38 100%);
   color: var(--white);
   border: 2px solid var(--yellow);
@@ -203,7 +203,7 @@ h2.mainhead {
   display: flex;
   align-items: center;
   gap: 8px; */
-    display: none;
+  display: none;
 }
 
 .main-btn:hover {
@@ -661,16 +661,16 @@ section.custom-banner.cookies-banner {
 }
 
 .newsletter-btn {
-    background: linear-gradient(90deg, #ffcf83 0%, #140e38 100%);
-    color: var(--white);
-    border: 2px solid var(--yellow);
-    border-radius: 12px;
-    padding: 12px 32px;
-    font-weight: 500;
-    font-size: 1.1rem;
-    text-decoration: none;
-    box-shadow: 0 2px 8px rgba(162, 89, 255, 0.12);
-    transition: background 0.2s, color 0.2s;
+  background: linear-gradient(90deg, #ffcf83 0%, #140e38 100%);
+  color: var(--white);
+  border: 2px solid var(--yellow);
+  border-radius: 12px;
+  padding: 12px 32px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(162, 89, 255, 0.12);
+  transition: background 0.2s, color 0.2s;
 }
 
 .newsletter-btn:hover {
@@ -1126,8 +1126,9 @@ section.Disclaimer {
 /*About-page-css-End*/
 
 .table-secmain h2 {
-    text-align: center;
+  text-align: center;
 }
+
 .table-container {
   max-width: 1400px;
   margin: 0 auto;
@@ -1147,6 +1148,7 @@ section.Disclaimer {
   padding: 14px 18px;
   border: 1px solid grey;
   text-align: left;
+  line-height: normal;
 }
 
 .fantasy-table th {
