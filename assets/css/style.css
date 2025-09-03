@@ -188,21 +188,6 @@ h2.mainhead {
 }
 
 .main-btn {
-  /* 
-  background: linear-gradient(90deg, #ffcf83 0%, #140e38 100%);
-  color: var(--white);
-  border: 2px solid var(--yellow);
-  border-radius: 12px;
-  padding: 12px 32px;
-  font-weight: 700;
-  font-size: 1.1rem;
-  text-decoration: none;
-  margin-left: 24px;
-  box-shadow: 0 2px 8px rgba(162, 89, 255, 0.12);
-  transition: background 0.2s, color 0.2s;
-  display: flex;
-  align-items: center;
-  gap: 8px; */
   display: none;
 }
 
