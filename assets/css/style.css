@@ -353,8 +353,9 @@ section.custom-banner {
 }
 
 .mainfooter-pages-section {
-  background: var(--darkblue);
-  padding: 60px 0 40px 0;
+    background: var(--darkblue);
+    padding: 60px 0 40px 0;
+    border-top: 2px solid var(--yellow);
 }
 
 .mainfooter-pages-wrap {
