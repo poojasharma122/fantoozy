@@ -144,10 +144,12 @@ h2.mainhead {
 }
 
 .main-header__logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    z-index: 9999;
+    position: relative;
 }
 
 .main-header__logo img {
