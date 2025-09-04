@@ -786,7 +786,6 @@ section.custom-banner.homebanner {
 }
 
 .league-card:hover {
-  transform: translateY(-8px) scale(1.03);
   box-shadow: 0 8px 25px var(--yellow);
 }
 
