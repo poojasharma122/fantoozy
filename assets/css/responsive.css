@@ -18,10 +18,10 @@
   }
 
   .main-header__logo {
-    position: fixed;
-    top: 15px;
-    left: 20px;
-    z-index: 2001;
+position: fixed;
+        top: unset;
+        left: 20px;
+        z-index: 2001;
   }
 
   .main-header__nav {
