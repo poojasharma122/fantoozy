@@ -605,6 +605,7 @@ section.custom-banner.cookies-banner {
   text-decoration: none;
   box-shadow: 0 2px 8px rgba(162, 89, 255, 0.12);
   transition: background 0.2s, color 0.2s;
+  margin-top: 20px;
 }
 
 .newsletter-btn:hover {
@@ -1194,6 +1195,6 @@ section.Disclaimer {
 }
 
 .nfl-banner {
-  background: url(../images/nfl-banner.jpg);
-  background-position: center !important;
+    background: url(../images/nfl-banner.jpg);
+    background-position: bottom !important
 }
