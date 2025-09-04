@@ -388,11 +388,17 @@ section.custom-banner.privacy-banner {
 }
 
 section.custom-banner.terms-banner {
-  background: url(../images/termsbanner.jpg) center/cover fixed;
+  background: url(../images/termsbanner.jpg);
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.custom-banner.cookies-banner {
-  background: url(../images/cookiesbanner.png) center/cover fixed;
+    background: url(../images/cookiesbanner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Footer Pages CSS End*/
