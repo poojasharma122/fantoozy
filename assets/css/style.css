@@ -329,7 +329,7 @@ section.custom-banner {
   line-height: normal;
 }
 .mainfooter-pages-section .mainfooter-pages-block h2 {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 .mainfooter-pages-section {
   background: var(--darkblue);
@@ -571,7 +571,7 @@ section.custom-banner.cookies-banner {
 }
 
 .newsletter-section {
-  padding-bottom: 48px ;
+  padding: 50px 0 ;
   color: var(--white);
   text-align: center;
 }
@@ -922,7 +922,9 @@ section.Disclaimer {
   display: flex;
   gap: 20px;
 }
-
+.newsletter-section.newshub {
+    padding-top: 0;
+}
 /*Homepage Css End*/
 
 /*Blog-Card-Start*/
