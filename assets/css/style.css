@@ -566,12 +566,14 @@ section.custom-banner.cookies-banner {
   margin-bottom: 28px;
   line-height: 1.6;
 }
-
+.contactnew .newsletter-form {
+    align-items: baseline;
+}
 .newsletter-form {
   display: flex;
   gap: 12px;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 600px;
   margin: 0 auto;
