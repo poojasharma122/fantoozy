@@ -200,9 +200,7 @@
         padding: 0 4px;
     }
 
-    .mainfooter-pages-wrap {
-        padding: 22px 8px;
-    }
+   
 
     .mainfooter-pages-title {
         font-size: 1.4rem;
@@ -262,7 +260,6 @@
 
     .custom-banner .banner-content h1 {
         font-size: 32px;
-        line-height: normal;
     }
 
     h2.mainhead {
@@ -273,6 +270,9 @@
         font-size: 35px;
         line-height: 50px;
     }
+    .homebanner:hover .banner-content {
+    animation: none;
+}
 }
 
 @media screen and (max-width:450px) {
@@ -283,5 +283,11 @@
     section.custom-banner.homebanner h1 {
         font-size: 29px;
         line-height: 45px;
+    }
+}
+@media screen and (max-width:380px) {
+        section.custom-banner.homebanner h1 {
+        font-size: 25px;
+        line-height: 42px;
     }
 }

@@ -326,8 +326,11 @@ section.custom-banner {
 
 .custom-banner .banner-content h1 {
   font-size: 50px;
+  line-height: normal;
 }
-
+.mainfooter-pages-section .mainfooter-pages-block h2 {
+    margin-bottom: 20px;
+}
 .mainfooter-pages-section {
   background: var(--darkblue);
   padding: 60px 0 40px 0;
@@ -338,7 +341,6 @@ section.custom-banner {
   background: var(--darkblue);
   border-radius: 18px;
   box-shadow: 0 4px 32px rgba(20, 14, 56, 0.08);
-  padding: 40px 32px;
 }
 
 .mainfooter-pages-block {
@@ -569,7 +571,7 @@ section.custom-banner.cookies-banner {
 }
 
 .newsletter-section {
-  padding: 48px 0;
+  padding-bottom: 48px ;
   color: var(--white);
   text-align: center;
 }
