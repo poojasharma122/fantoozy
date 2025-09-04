@@ -2,6 +2,12 @@
     /*Header-css-start*/
     .main-header{
         padding: 50px 0;
+        background: #140f3a; /* match site dark blue */
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 2000;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     }
     .main-header__toggle {
     display: flex;
