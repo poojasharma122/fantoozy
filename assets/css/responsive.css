@@ -137,7 +137,8 @@ section.custom-banner.homebanner {
 }
 
 .league-sec a {
-    font-size: 23px;
+           font-size: 23px;
+        margin-top: 20px;
 }
 
 .league-picture img {
