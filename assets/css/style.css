@@ -1198,3 +1198,6 @@ section.Disclaimer {
     background: url(../images/nfl-banner.jpg);
     background-position: bottom !important
 }
+section.custom-banner.schedule-banner {
+    background-position: top;
+}
