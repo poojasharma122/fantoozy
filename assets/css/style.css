@@ -1080,38 +1080,97 @@ section.Disclaimer {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 40px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .fantasy-table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   background: var(--darkblue);
   color: var(--white);
-  border: 1px solid #333;
+  border: 2px solid var(--yellow);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(20, 14, 56, 0.25);
 }
 
 .fantasy-table th,
 .fantasy-table td {
   padding: 14px 18px;
-  border: 1px solid grey;
   text-align: left;
-  line-height: normal;
+  line-height: 1.5;
+  vertical-align: middle;
 }
 
-.fantasy-table th {
+.fantasy-table thead th {
+  position: sticky;
+  top: 0;
   background: var(--yellow);
   color: var(--darkblue);
-  font-weight: bold;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.fantasy-table tbody td { border-top: 1px solid rgba(255, 207, 131, 0.25); }
+
+.fantasy-table tbody tr:nth-child(odd) { background: #19143f; }
+.fantasy-table tbody tr:nth-child(even) { background: #1e1848; }
+
+.fantasy-table tbody tr { transition: background 0.2s ease, color 0.2s ease; }
+
+.fantasy-table tbody tr:hover { background: rgba(255, 207, 131, 0.09); }
+
+/* Refined inner dividers */
+.fantasy-table tbody td + td { border-left: 1px solid rgba(255, 207, 131, 0.12); }
+
+/* First column normal flow (sticky removed for cleaner look) */
+.fantasy-table thead th:first-child,
+.fantasy-table tbody td:first-child { position: static; }
+.fantasy-table tbody td:first-child { font-weight: 700; }
+
+/* Rounded corners on the bottom row */
+.fantasy-table thead th:first-child { border-top-left-radius: 14px; }
+.fantasy-table thead th:last-child { border-top-right-radius: 14px; }
+.fantasy-table tbody tr:last-child td:first-child { border-bottom-left-radius: 18px; }
+.fantasy-table tbody tr:last-child td:last-child { border-bottom-right-radius: 18px; }
+
+/* Change text/link color to red on hover */
+.table-container tbody tr:hover td,
+.table-container tbody tr:hover a,
+.fantasy-table tbody tr:hover td,
+.fantasy-table tbody tr:hover a {
+  color:var(--yellow);
 }
 
 .fantasy-table td a {
   color: var(--white);
   font-weight: bold;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .fantasy-table td a:hover {
-  text-decoration: underline;
+  color: var(--yellow);
+}
+
+/* Style the star rating column (assumes last column holds stars) */
+.fantasy-table tbody td:last-child {
+  color: var(--yellow);
+  letter-spacing: 1px;
+}
+
+/* On hover, keep text aligned with site accent color */
+.fantasy-table tbody tr:hover td,
+.fantasy-table tbody tr:hover a {
+  color: var(--yellow);
+}
+
+/* Ensure even rows keep readable text color inside fantasy-table */
+.table-container .fantasy-table tr:nth-child(even) td,
+.table-container .fantasy-table tr:nth-child(even) a {
+  color: var(--white);
 }
 
 .league-sec a {
