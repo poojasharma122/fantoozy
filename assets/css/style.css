@@ -199,10 +199,9 @@ h2.mainhead {
 }
 
 .site-footer__brand img {
-  max-width: 100%;
-  margin-bottom: 20px;
-  height: 78px;
-  width: unset;
+  object-fit: cover;
+    height: auto;
+    max-width: 70px;
 }
 
 .site-footer__section {
