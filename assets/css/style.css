@@ -1093,6 +1093,7 @@ section.Disclaimer {
   border: 2px solid var(--yellow);
   border-radius: 18px;
   box-shadow: 0 4px 24px rgba(20, 14, 56, 0.25);
+  --table-hover-bg: rgba(255, 207, 131, 0.06);
 }
 
 .fantasy-table th,
@@ -1120,7 +1121,7 @@ section.Disclaimer {
 
 .fantasy-table tbody tr { transition: background 0.2s ease, color 0.2s ease; }
 
-.fantasy-table tbody tr:hover { background: rgba(255, 207, 131, 0.09); }
+.fantasy-table tbody tr:hover { background: var(--table-hover-bg); }
 
 /* Refined inner dividers */
 .fantasy-table tbody td + td { border-left: 1px solid rgba(255, 207, 131, 0.12); }
@@ -1128,7 +1129,10 @@ section.Disclaimer {
 /* First column normal flow (sticky removed for cleaner look) */
 .fantasy-table thead th:first-child,
 .fantasy-table tbody td:first-child { position: static; }
-.fantasy-table tbody td:first-child { font-weight: 700; }
+.fantasy-table tbody td:first-child {
+  font-weight: 700;
+  color: var(--white);
+}
 
 /* Rounded corners on the bottom row */
 .fantasy-table thead th:first-child { border-top-left-radius: 14px; }
@@ -1170,7 +1174,7 @@ section.Disclaimer {
 /* Ensure even rows keep readable text color inside fantasy-table */
 .table-container .fantasy-table tr:nth-child(even) td,
 .table-container .fantasy-table tr:nth-child(even) a {
-  color: var(--white);
+  color: var(--yellow);
 }
 
 .league-sec a {
@@ -1261,7 +1265,6 @@ section.Disclaimer {
 
 .nfl-banner {
     background: url(../images/nfl-banner.jpg);
-    background-position: bottom !important
 }
 section.custom-banner.schedule-banner {
     background-position: top;
