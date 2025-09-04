@@ -698,11 +698,13 @@ section.custom-banner.homebanner h1 {
 }
 
 section.custom-banner.homebanner {
-  background: url(../images/homebanner.jpg) center/cover fixed;
-  height: 700px;
-  border-bottom-left-radius: 80px;
-  border-bottom-right-radius: 80px;
-  overflow: hidden;
+    background: url(../images/homebanner.jpg) center / cover fixed;
+    height: 700px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
   /* keep animation inside banner */
 }
 
