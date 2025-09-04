@@ -377,9 +377,8 @@ section.custom-banner {
 
 .mainfooter-pages-subtitle {
   font-size: 1.35rem;
-  color: var(--purple);
   font-weight: 700;
-  margin-bottom: 10px;
+  margin: 15px 0 10px;
 }
 
 .mainfooter-pages-block p,
@@ -480,16 +479,13 @@ section.custom-banner.cookies-banner {
 }
 
 .contact-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 18px;
-  background: #232347;
-  border-radius: 16px;
-  box-shadow: 0 4px 24px rgba(20, 14, 56, 0.10);
-  padding: 28px 24px;
-  margin: 0 auto;
-  max-width: 420px;
-  justify-content: flex-start;
+    display: block;
+    background: #232347;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(20, 14, 56, 0.10);
+    padding: 28px 24px;
+    margin: 0 auto;
+    max-width: 500px;
 }
 
 .contact-icon {
