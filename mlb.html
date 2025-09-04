@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -71,7 +72,9 @@
 
     <!-- Comparison Table Section Start -->
     <div class="table-secmain">
+        <div class="container">
         <h2 class="mainhead">🏆 Best Fantasy Baseball Platforms for 2025</h2>
+        </div>
         <div class="table-container">
             <table class="fantasy-table">
                 <thead>
@@ -249,7 +252,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="league-card text-center h-100 p-4">
+                    <div class="league-card text-center h-100 p-4 "  data-aos="fade-right" data-aos-duration="1000">
                         <div class="icon">📊
                         </div>
                         <h3 class="league-card__title my-3">Fantasy Baseball Strategies to Win in 2025</h3>
@@ -280,11 +283,11 @@
     <!--League Cards End -->
 
     <!--League Bottom Start -->
-    <div class="league-sec bottomleague">
+    <div class="league-sec bottomleague hide " data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="row">
 
-                <div class="col-12">
+                <div class="col-12" > 
                     <div class="league-content">
                         <a href="https://www.espn.com/fantasy/baseball/" target="_blank" class="review-link">Fantoozy’s
                             MLB Verdict
@@ -411,8 +414,14 @@
     <!--Footer-end-->
 
 
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  AOS.init();
+</script>
 
 </body>
 
