@@ -275,7 +275,7 @@ h2.mainhead {
 section.custom-banner {
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 420px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1213,16 +1213,19 @@ section.Disclaimer {
   max-width: 100%;
   margin: 0 auto;
   display: block;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
-
+.league-sec  .league-picture {
+    height: 100%;
+}
 .league-sec {
   padding: 50px 40px;
 }
 
 .league-sec .container {
   padding: 0;
+  max-width: 1300px;
 }
 
 .league-sec span.verdict {
