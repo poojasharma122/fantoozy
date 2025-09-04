@@ -265,10 +265,6 @@ section.custom-banner.homebanner {
 
 @media screen and (max-width: 595px) {
 
-.main-header__logo img,
-.site-footer__brand img {
-    height: 58px;
-}
 
 .choose-card {
     padding: 20px 15px;
