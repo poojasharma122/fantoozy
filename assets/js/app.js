@@ -23,16 +23,3 @@ faqItems.forEach(item => {
 
 /*Faq-js-start*/
 
-// Custom Cursor//
-
-    const cursor = document.querySelector('.cursor');
-    const dot = document.querySelector('.cursor-dot');
-
-    document.addEventListener('mousemove', e => {
-      cursor.style.top = `${e.clientY}px`;
-      cursor.style.left = `${e.clientX}px`;
-      dot.style.top = `${e.clientY}px`;
-      dot.style.left = `${e.clientX}px`;
-    });
-    
-// Custom Cursor//

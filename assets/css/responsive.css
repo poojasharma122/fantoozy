@@ -1,7 +1,7 @@
 @media (max-width: 992px) {
-    .container {
-        padding: 0 20px;
-    }
+.container {
+    padding: 0 20px;
+}
 
     .main-header__nav {
         position: fixed;
@@ -66,228 +66,228 @@
         background: none;
     }
 
-    .site-footer__wrapper {
-        flex-direction: column;
-        padding: 40px 20px;
-    }
+.site-footer__wrapper {
+    flex-direction: column;
+    padding: 40px 20px;
+}
 
-    .footer-col {
-        margin-bottom: 20px;
-    }
+.footer-col {
+    margin-bottom: 20px;
+}
 
-    .main-header .main-btn {
-        display: none;
-    }
+.main-header .main-btn {
+    display: none;
+}
 
 
-    .league-card {
-        margin-bottom: 24px;
-    }
+.league-card {
+    margin-bottom: 24px;
+}
 
-    .blog-card {
-        height: 240px;
-    }
+.blog-card {
+    height: 240px;
+}
 
-    .features {
-        grid-template-columns: 1fr 1fr;
-    }
+.features {
+    grid-template-columns: 1fr 1fr;
+}
 
-    section.custom-banner.homebanner h1 {
-        font-size: 55px;
-    }
+section.custom-banner.homebanner h1 {
+    font-size: 55px;
+}
 
-    section.custom-banner.homebanner {
-        height: 600px;
-    }
+section.custom-banner.homebanner {
+    height: 600px;
+}
 
-    .feature-card h3,
-    .league-card__title {
-        font-size: 23px;
-    }
+.feature-card h3,
+.league-card__title {
+    font-size: 23px;
+}
 
-    .Trust-main .features {
-        grid-template-columns: 1fr 1fr;
-    }
+.Trust-main .features {
+    grid-template-columns: 1fr 1fr;
+}
 
-    .mission-main .blog-card-overlay {
-        padding: 15px;
-        justify-content: center;
-        min-height: auto;
-    }
+.mission-main .blog-card-overlay {
+    padding: 15px;
+    justify-content: center;
+    min-height: auto;
+}
 }
 
 @media screen and (max-width: 991px) {
-    .league-sec {
-        padding: 50px 30px;
-    }
+.league-sec {
+    padding: 50px 30px;
+}
 
-    .league-sec a {
-        font-size: 23px;
-    }
+.league-sec a {
+    font-size: 23px;
+}
 
-    .league-picture img {
-        margin: 0 auto 30px;
-    }
+.league-picture img {
+    margin: 0 auto 30px;
+}
 
-    .league-sec .row {
-        padding: 40px 15px;
-    }
+.league-sec .row {
+    padding: 40px 15px;
+}
 }
 
 @media screen and (max-width: 767px) {
-    section.custom-banner.homebanner h1 {
-        font-size: 45px;
-        line-height: 60px;
-    }
+section.custom-banner.homebanner h1 {
+    font-size: 45px;
+    line-height: 60px;
+}
 
-    .table-container {
-        overflow-x: auto;
-        padding: 0 20px;
-    }
+.table-container {
+    overflow-x: auto;
+    padding: 0 20px;
+}
 
-    .fantasy-table {
-        min-width: 800px;
-    }
+.fantasy-table {
+    min-width: 800px;
+}
 
-    .table-container::-webkit-scrollbar {
-        height: 8px;
-    }
+.table-container::-webkit-scrollbar {
+    height: 8px;
+}
 
-    .table-container::-webkit-scrollbar-thumb {
-        background: var(--yellow);
-        border-radius: 4px;
-    }
+.table-container::-webkit-scrollbar-thumb {
+    background: var(--yellow);
+    border-radius: 4px;
+}
 
-    .table-container::-webkit-scrollbar-track {
-        background: var(--darkblue);
-    }
+.table-container::-webkit-scrollbar-track {
+    background: var(--darkblue);
+}
 
-    .leaguecard-detail {
-        flex-direction: column;
-        text-align: center;
-    }
+.leaguecard-detail {
+    flex-direction: column;
+    text-align: center;
+}
 
-    .leaguecard-detail img {
-        width: 200px;
-    }
+.leaguecard-detail img {
+    width: 200px;
+}
 
-    .leaguecard-detail-content {
-        text-align: left;
-    }
+.leaguecard-detail-content {
+    text-align: left;
+}
 }
 
 @media screen and (max-width: 600px) {
-    .Trust-main .features {
-        grid-template-columns: 1fr;
-    }
+.Trust-main .features {
+    grid-template-columns: 1fr;
+}
 
-    .features {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
+.features {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
 
-    .faq-question {
-        font-size: 18px;
-    }
+.faq-question {
+    font-size: 18px;
+}
 
-    .contact-card {
-        flex-direction: column;
-        align-items: center;
-        padding: 18px 8px;
-    }
+.contact-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 8px;
+}
 
-    .contact-block {
-        padding: 0 4px;
-    }
+.contact-block {
+    padding: 0 4px;
+}
 
-   
 
-    .mainfooter-pages-title {
-        font-size: 1.4rem;
-    }
 
-    .mainfooter-pages-subtitle {
-        font-size: 1.05rem;
-    }
+.mainfooter-pages-title {
+    font-size: 1.4rem;
+}
 
-    .mainfooter-pages-block p,
-    .mainfooter-pages-block li {
-        font-size: 0.98rem;
-    }
+.mainfooter-pages-subtitle {
+    font-size: 1.05rem;
+}
 
-    .newsletter-title,
-    .social-tips-title {
-        font-size: 1.3rem;
-    }
+.mainfooter-pages-block p,
+.mainfooter-pages-block li {
+    font-size: 0.98rem;
+}
 
-    .newsletter-form {
-        flex-direction: column;
-        gap: 10px;
-    }
+.newsletter-title,
+.social-tips-title {
+    font-size: 1.3rem;
+}
 
-    .newsletter-btn,
-    .newsletter-input {
-        width: 100%;
-        font-size: 1rem;
-        flex: unset;
-    }
+.newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+}
 
-    .social-icons-row {
-        gap: 14px;
-    }
+.newsletter-btn,
+.newsletter-input {
+    width: 100%;
+    font-size: 1rem;
+    flex: unset;
+}
 
-    section.custom-banner {
-        height: 350px;
-    }
+.social-icons-row {
+    gap: 14px;
+}
 
-    section.custom-banner.homebanner {
-        height: 450px;
-    }
+section.custom-banner {
+    height: 350px;
+}
+
+section.custom-banner.homebanner {
+    height: 450px;
+}
 
 
 }
 
 @media screen and (max-width: 595px) {
 
-    .main-header__logo img,
-    .site-footer__brand img {
-        height: 58px;
-    }
+.main-header__logo img,
+.site-footer__brand img {
+    height: 58px;
+}
 
-    .choose-card {
-        padding: 20px 15px;
-    }
+.choose-card {
+    padding: 20px 15px;
+}
 
-    .custom-banner .banner-content h1 {
-        font-size: 32px;
-    }
+.custom-banner .banner-content h1 {
+    font-size: 32px;
+}
 
-    h2.mainhead {
-        font-size: 25px;
-    }
+h2.mainhead {
+    font-size: 25px;
+}
 
-    section.custom-banner.homebanner h1 {
-        font-size: 35px;
-        line-height: 50px;
-    }
-    .homebanner:hover .banner-content {
-    animation: none;
+section.custom-banner.homebanner h1 {
+    font-size: 35px;
+    line-height: 50px;
+}
+.homebanner:hover .banner-content {
+animation: none;
 }
 }
 
 @media screen and (max-width:450px) {
-    .formwrap {
-        gap: 12px;
-    }
+.formwrap {
+    gap: 12px;
+}
 
-    section.custom-banner.homebanner h1 {
-        font-size: 29px;
-        line-height: 45px;
-    }
+section.custom-banner.homebanner h1 {
+    font-size: 29px;
+    line-height: 45px;
+}
 }
 @media screen and (max-width:380px) {
-        section.custom-banner.homebanner h1 {
-        font-size: 25px;
-        line-height: 42px;
-    }
+    section.custom-banner.homebanner h1 {
+    font-size: 25px;
+    line-height: 42px;
+}
 }
