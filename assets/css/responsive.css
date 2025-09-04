@@ -1,7 +1,6 @@
 @media (max-width: 992px) {
     /*Header-css-start*/
     .main-header{
-        padding: 50px 0;
         background: #140f3a; /* match site dark blue */
         position: sticky;
         top: 0;
@@ -12,17 +11,17 @@
     .main-header__toggle {
     display: flex;
     position: fixed;
-    top: 33px;
+    top: 26px;
     right: 20px;
     z-index: 2001;
   }
 
-  .main-header__logo {
+  /* .main-header__logo {
 position: fixed;
         top: unset;
         left: 20px;
         z-index: 2001;
-  }
+  } */
 
   .main-header__nav {
     position: fixed;
