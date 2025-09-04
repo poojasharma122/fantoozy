@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
@@ -130,46 +131,46 @@
   <!-- Compare the Big Four Leagues Section End -->
 
   <!-- Choose Section Start -->
-  <section class="why-choose">
+  <section class="why-choose hide">
     <div class="container">
       <h2 class="mainhead">Why Choose Fantoozy?</h2>
       <div class="features">
-        <div class="feature-card">
+        <div class="feature-card " data-aos="zoom-in" data-aos-duration="1000" >
           <div class="icon">🔍
           </div>
           <h3 class="my-3">Independent Reviews</h3>
           <p class="para">Unbiased comparisons with no hidden ties.</p>
         </div>
 
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in" data-aos-duration="1400">
           <div class="icon">🏈⚾🏀
           </div>
           <h3 class="my-3">Comprehensive Coverage</h3>
           <p class="para">MLB, NHL, NBA, and NFL all in one hub.</p>
         </div>
 
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in" data-aos-duration="1000">
           <div class="icon">📊
           </div>
           <h3 class="my-3">Expert Strategy</h3>
           <p class="para">Actionable tips to sharpen your draft and weekly moves.</p>
         </div>
 
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in" data-aos-duration="1400">
           <div class="icon">📝
           </div>
           <h3 class="my-3">Platform Clarity</h3>
           <p class="para">Easy-to-read breakdowns of features, pros, and cons.</p>
         </div>
 
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in" data-aos-duration="1000">
           <div class="icon">⏰
           </div>
           <h3 class="my-3">Constantly Updated</h3>
           <p class="para">Fresh reviews and insights every season.</p>
         </div>
 
-        <div class="feature-card">
+        <div class="feature-card" data-aos="zoom-in" data-aos-duration="1400">
           <div class="icon">⚡
           </div>
           <h3 class="my-3">User-First Design</h3>
@@ -182,13 +183,13 @@
   <!-- Choose Section End -->
 
   <!-- Latest Insights from the Blog Section Start -->
-  <section class="blog-insights-section">
+  <section class="blog-insights-section hide">
     <div class="container">
       <h2 class="mainhead text-center mb-3">Latest Insights from the Blog</h2>
       <div class="row g-4">
         <!-- Card 1 -->
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="blog-card" style="background-image: url('assets/images/latestblogcard1.png');">
+          <div class="blog-card " data-aos="fade-up" data-aos-duration="1000" style="background-image: url('assets/images/latestblogcard1.png');">
             <div class="blog-card-overlay">
               <h3 class="blog-card-title">Top NFL Fantasy Sleepers for 2025</h3>
             </div>
@@ -196,7 +197,7 @@
         </div>
         <!-- Card 2 -->
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <div class="blog-card" style="background-image: url('assets/images/latestblogcard2.webp');">
+          <div class="blog-card" data-aos="fade-up" data-aos-duration="1400" style="background-image: url('assets/images/latestblogcard2.webp');">
             <div class="blog-card-overlay">
               <h3 class="blog-card-title">Best Fantasy Baseball Sites Ranked</h3>
             </div>
@@ -204,7 +205,7 @@
         </div>
         <!-- Card 3 -->
         <div class="col-lg-4 col-md-12 col-sm-12">
-          <div class="blog-card" style="background-image: url('assets/images/latestblogcard3.jpg');">
+          <div class="blog-card" data-aos="fade-up" data-aos-duration="1000" style="background-image: url('assets/images/latestblogcard3.jpg');">
             <div class="blog-card-overlay">
               <h3 class="blog-card-title">NBA Draft Strategy: Mistakes to Avoid</h3>
             </div>
@@ -318,8 +319,13 @@
 
 
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="assets/js/app.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+  AOS.init();
+</script>
 
 </body>
 
