@@ -925,6 +925,9 @@ section.Disclaimer {
 .newsletter-section.newshub {
     padding-top: 0;
 }
+.league-sec .row:last-child {
+    margin-bottom: 0;
+}
 /*Homepage Css End*/
 
 /*Blog-Card-Start*/
