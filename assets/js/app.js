@@ -1,7 +1,11 @@
 /*Header-js-start*/
-document.getElementById('navToggle').addEventListener('click', function() {
-    this.classList.toggle('open');
-    document.getElementById('mainNav').classList.toggle('open');
+const toggle = document.getElementById('navToggle');
+const nav = document.getElementById('mainNav');
+
+toggle.addEventListener('click', function() {
+  this.classList.toggle('open');
+  nav.classList.toggle('open');
+  document.body.classList.toggle('menu-open');
 });
 /*Header-js-end*/
 

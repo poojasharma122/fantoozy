@@ -1,70 +1,79 @@
 @media (max-width: 992px) {
+    /*Header-css-start*/
+    .main-header{
+        padding: 50px 0;
+    }
+    .main-header__toggle {
+    display: flex;
+    position: fixed;
+    top: 33px;
+    right: 20px;
+    z-index: 2001;
+  }
+
+  .main-header__logo {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    z-index: 2001;
+  }
+
+  .main-header__nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #140f3a;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-header__nav.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .main-header__nav ul {
+        display: flex;
+        flex-direction: column;
+        margin: 80px 0 0 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        gap: 11px;
+  }
+
+  .main-header__nav ul li {
+    width: 100%;
+    border-bottom: 1px solid #2d2a5a;
+  }
+
+  .main-header__nav ul li a {
+  display: block;       
+    padding: 12px 20px;  
+    font-size: 1rem;       
+    line-height: 1.4;     
+    text-align: left;   
+  }
+
+  .main-header__nav ul li a.active,
+  .main-header__nav ul li a:hover {
+    color: var(--yellow);
+  }
+
+
+  body.menu-open {
+    overflow: hidden;
+  }
+    /*Header-css-end*/
 .container {
     padding: 0 20px;
 }
-
-    .main-header__nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        background: var(--darkblue);
-        overflow: hidden;
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 0.4s;
-        z-index: 999;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
-
-    .main-header__nav.open {
-        opacity: 1;
-        pointer-events: auto;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    }
-
-    .main-header__nav ul {
-        flex-direction: column;
-        gap: 0;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    .main-header__nav ul li {
-        border-bottom: 1px solid #2d2a5a;
-    }
-
-    .main-header__nav ul li a {
-        display: block;
-        padding: 14px 24px;
-        font-size: 1.15rem;
-        color: var(--yellow);
-    }
-
-    .main-header__nav ul li a.active,
-    .main-header__nav ul li a:hover {
-        color: var(--white);
-    }
-
-    .main-header__signup {
-        margin: 18px 0 0 0;
-        width: 100%;
-        justify-content: center;
-        display: none;
-    }
-
-    .main-header__toggle {
-        display: flex;
-        position: absolute;
-        top: 35px;
-        right: 24px;
-        z-index: 2000;
-        background: none;
-    }
 
 .site-footer__wrapper {
     flex-direction: column;
