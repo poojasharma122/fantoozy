@@ -252,7 +252,6 @@ h2.mainhead {
 .site-footer__icons li img {
   max-width: 26px;
   transition: transform 0.3s;
-  cursor: pointer;
 }
 
 .site-footer__icons li img:hover {
@@ -375,9 +374,11 @@ section.custom-banner {
 }
 
 section.custom-banner.contact-banner {
-  background: url(../images/contactbanner.jpg);
-  background-position: bottom;
-  background-attachment: fixed;
+background: url(../images/contactbanner.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.custom-banner.privacy-banner {
@@ -607,7 +608,7 @@ section.custom-banner.cookies-banner {
   text-decoration: none;
   box-shadow: 0 2px 8px rgba(162, 89, 255, 0.12);
   transition: background 0.2s, color 0.2s;
-  margin-top: 20px;
+  margin-top: 11px;
 }
 
 .newsletter-btn:hover {
@@ -754,10 +755,6 @@ section.custom-banner.homebanner {
 
 .smartplay-desc {
   line-height: 1.7;
-}
-
-.leagues-section {
-  background: #18103a;
 }
 
 .leagues-title {
