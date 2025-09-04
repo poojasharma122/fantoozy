@@ -120,8 +120,9 @@ h2.mainhead {
 }
 
 .main-header__logo img {
-  height:70px;
-  object-fit: contain;
+    object-fit: cover;
+    height: auto;
+    max-width: 70px;
 }
 
 /* Desktop Nav */
@@ -690,6 +691,9 @@ section.custom-banner.cookies-banner {
 /* Contact Section Css End */
 
 /*Homepage Css Start*/
+.league-sec.bottomleague a {
+    margin-top: 0;
+}
 section.custom-banner.homebanner h1 {
   font-size: 65px;
   font-weight: bold;
