@@ -571,7 +571,7 @@ section.custom-banner.cookies-banner {
   display: flex;
   gap: 12px;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
   max-width: 600px;
   margin: 0 auto;
