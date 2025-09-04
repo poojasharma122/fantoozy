@@ -369,7 +369,7 @@ section.custom-banner {
 }
 
 .mainfooter-pages-email {
-  color: var(--yellow);
+  color: var(--yellow) !important;
   font-weight: 600;
   text-decoration: underline;
 }
