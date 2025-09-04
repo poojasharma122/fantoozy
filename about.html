@@ -115,17 +115,17 @@
     <!-- what-we-do Section End -->
 
     <!-- Our Mission Section Start -->
-    <section class="blog-insights-section mission-main">
+    <section class="blog-insights-section mission-main hide">
         <div class="container">
-            <h2 class="mainhead text-center ">Our Mission
+            <h2 class="mainhead text-center" data-aos="fade-up" data-aos-duration="2000">Our Mission
             </h2>
-            <p class="para mb-5 text-center">
+            <p class="para mb-5 text-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">
                 Fantasy sports should be fun, competitive, and fair. Fantoozy exists to cut through the noise and
                 deliver:
             </p>
             <div class="row g-4">
                 <!-- Card 1 -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                     <div class="blog-card" style="background-image: url('assets/images/missioncard1.jpg');">
                         <div class="blog-card-overlay">
                             <h3 class="blog-card-title">Transparency</h3>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <!-- Card 2 -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
                     <div class="blog-card" style="background-image: url('assets/images/missioncard2.jpg') ;">
                         <div class="blog-card-overlay">
                             <h3 class="blog-card-title">Authority </h3>
@@ -145,11 +145,11 @@
                     </div>
                 </div>
                 <!-- Card 3 -->
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
                     <div class="blog-card" style="background-image: url('assets/images/missioncard3.jpg');">
                         <div class="blog-card-overlay">
                             <h3 class="blog-card-title">Accessibility</h3>
-                            <p class="para">Content that’s simple for beginners and valuable for experts.
+                            <p class="para">Content that's simple for beginners and valuable for experts.
                             </p>
                         </div>
                     </div>
@@ -160,31 +160,31 @@
     <!-- Our Mission Section End -->
 
     <!-- Our Trust Fantoozy Section Start -->
-    <section class="why-choose Trust-main">
+    <section class="why-choose Trust-main hide">
         <div class="container">
-            <h2 class="mainhead">Why Trust Fantoozy?</h2>
+            <h2 class="mainhead" data-aos="fade-up" data-aos-duration="2000">Why Trust Fantoozy?</h2>
             <div class="features">
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
                     <div class="icon">🏆
                     </div>
-                    <p class="para"> We’re independent — no partnerships dictate our rankings.</p>
+                    <p class="para"> We're independent — no partnerships dictate our rankings.</p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                     <div class="icon">🔍
                     </div>
                     <p class="para">We focus on accuracy and depth — every review is based on real research.
                     </p>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
                     <div class="icon">⚾ 🏒 🏀 🏈
                     </div>
                     <p class="para">We cover the <span>big four leagues</span> (MLB, NHL, NBA, NFL) so you can find
                         everything in one hub.
                     </p>
                 </div>
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="800">
                     <div class="icon">📊
                     </div>
                     <p class="para">We constantly update our comparisons and guides to reflect the latest changes.</p>
@@ -199,15 +199,15 @@
 
 
     <!-- Newsletter Signup Section Start -->
-    <section class="newsletter-section mainnews">
+    <section class="newsletter-section mainnews hide">
         <div class="newsletter-container">
-            <h2 class="mainhead">📩 Stay Connected
+            <h2 class="mainhead" data-aos="fade-up" data-aos-delay="200" data-aos-duration="2000">📩 Stay Connected
             </h2>
-            <p class="newsletter-desc">
+            <p class="newsletter-desc" data-aos="fade-up" data-aos-delay="400" data-aos-duration="2000">
                 Join our newsletter to get the latest reviews, strategies, and fantasy insights delivered straight to
                 your inbox.
             </p>
-            <form class="newsletter-form">
+            <form class="newsletter-form" data-aos="fade-up" data-aos-delay="600" data-aos-duration="2000">
                 <div class="formwrap">
                     <input type="text" class="newsletter-input" placeholder="Name" required>
                     <input type="email" class="newsletter-input" placeholder="Email" required>
@@ -219,7 +219,7 @@
     <!-- Newsletter Signup Section End -->
 
     <!-- Disclaimer  Start -->
-    <section class="Disclaimer">
+    <section class="Disclaimer hide">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -307,8 +307,13 @@
 
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    AOS.init();
+</script>
 
 </body>
 
